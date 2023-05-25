@@ -17,6 +17,11 @@
     &__logo {
       color: var(--yellow-theme-main-color);
       cursor: pointer;
+      img {
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+      }
     }
 
     &__menu {
