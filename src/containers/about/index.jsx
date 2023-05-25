@@ -30,10 +30,7 @@ const jobSummary2 =
 const About = () => {
   return (
     <section id="about" className="about">
-      <PageHeaderContent
-        headerText="About Me"
-        // icon={<FcAbout size={40} color="var( --yellow-theme-main-color)" />}
-      />
+      <PageHeaderContent headerText="About Me" />
       <div className="about__content">
         <div className="about__content__personalWrapper">
           <Animate

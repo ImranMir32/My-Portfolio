@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { FaBars } from "react-icons/fa";
 import { HiX } from "react-icons/hi";
 import { Link } from "react-router-dom";
-import Logo from "../../assets/logo.png";
+import { BsInfoCircleFill } from "react-icons/bs";
 import "./styles.scss";
 const data = [
   {
@@ -42,7 +42,7 @@ const Navbar = () => {
       <nav className="navbar">
         <div className="navbar__container">
           <Link to={"/"} className="navbar__container__logo">
-            <img src={Logo} alt="I" />
+            <BsInfoCircleFill size={40} />
           </Link>
         </div>
         <ul
