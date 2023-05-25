@@ -29,17 +29,28 @@
 
     button {
       cursor: pointer;
-      padding: 10px 70px;
+      padding: 10px 60px;
       font-size: 2rem;
       background: transparent;
       color: var(--yellow-theme-main-color);
       border: 1.5px solid var(--yellow-theme-main-color);
       border-radius: 4px;
       font-weight: 500;
+      margin-right: 7px;
 
       &:hover {
         background: var(--yellow-theme-main-color);
         color: #000000;
+      }
+    }
+  }
+  &__social {
+    display: flex;
+    justify-content: center;
+    &__icon {
+      margin: 10px;
+      & :hover {
+        cursor: pointer;
       }
     }
   }
