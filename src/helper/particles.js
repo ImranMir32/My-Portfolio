@@ -32,7 +32,7 @@ const particles = {
       value: "var(--selected-theme-main-color)",
     },
     links: {
-      color: "#ffffff",
+      color: "#22e9e9",
       distance: 150,
       enable: true,
       opacity: 0.5,
